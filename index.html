@@ -1,0 +1,330 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Praca licencjacka Beata Kurek</title>
+		
+		<link rel="stylesheet" type="text/css" href="CSS/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="CSS/style.css"/>
+		<link rel="stylesheet" type="text/css" href="CSS/style-index.css"/>
+	</head>
+
+	<body>
+<!--	Nawigacja mobile	 -->
+		<div class="nakladka" id="MENU">
+			<span class="zamknijX" onClick="zamknijMENU()">&times;</span> <!--Ikonka mnożenia wygląda jak X-->
+			<ol>
+				<li><a href="index.html" onClick="zamknijMENU()">Strona główna</a></li>
+				<li><a href="o-nas.html" onClick="zamknijMENU()">O nas</a></li>
+				<li><a href="nasze-dzialnia.html" onClick="zamknijMENU()">Nasze działania</a></li>
+				<li><a href="adoptuj.html" onClick="zamknijMENU()">Adoptuj kota</a></li>
+			</ol>
+		</div>
+		<span class="burger" onClick="otworzMENU()">&#9776;</span>
+		<script>
+		/*Javascript*/
+		function otworzMENU(){
+			document.getElementById("MENU").style.width="100%";
+		} /*koniec funkcji otworzMENU*/
+		
+		function zamknijMENU(){
+			document.getElementById("MENU").style.width="0";
+		} /*koniec funkcji zamknijMENU*/
+		
+		</script>
+<!--	Nawigacja desktop	-->
+		<nav>
+			<div class="nav-content">
+			<div class="logo-nav">
+				<img src="img/index/lynx_logo.svg" alt="logo Lynx Foundation">
+				<p class="Name">Lynx Foundation</p>
+			</div>
+			<div class="links-nav">
+				<ol>
+					<li><a href="index.html">Strona główna</a></li>
+					<li><a href="o-nas.html">O nas</a></li>
+					<li><a href="nasze-dzialnia.html">Nasze działania</a></li>
+					<li><a href="adoptuj.html">Adoptuj kota</a></li>
+				</ol>
+				<button class="white-button">Wesprzyj</button>
+			</div>	
+			</div>
+		</nav>
+		
+		<section class="hero">
+			<img src="img/index/pattern_tiger_stripes.png" alt="Tiger stripes"> 
+			<div class="hero-content">
+				<div class="hero-text">
+					<h1>Niech żyją spokojnie</h1>
+					<p class="hero-p">Wspieraj naszą misję, aby zapewnić tym wspaniałym zwierzętom lepszą przyszłość!</p>
+					<div class="hero-button">
+						<button class="white-button">Wesprzyj</button>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="ending"></section>
+		<section class="description">
+			<img src="img/index/tiger_paw_lewa.png" alt="Łapa tygrysa lewa" class="paw paw-left">
+			<img src="img/index/tiger_paw_prawa.png" alt="Łapa tygrysa prawa" class="paw paw-right">
+			
+			<div class="description-content">
+				<h2>O fundacji</h2>
+				<p class="description-text">Strona powstała z pasji do dzikich kotów i potrzeby działania na rzecz ich ochrony. Jej celem jest zwiększanie świadomości o zagrożonych gatunkach, informowanie o ich sytuacji oraz wspieranie działań fundacji zajmujących się ich ratowaniem. Pomysł stworzenia tej witryny zrodził się z osobistego zainteresowania dziką przyrodą i chęci zaangażowania się w realną pomoc dla zwierząt, którym grozi wyginięcie.</p>
+			</div>
+		</section>
+		<section class="actions">
+			<h2>Jak działamy?</h2>
+			<div class="actions-content">
+				
+				<div class="card"> 
+  					<div class="card-top">
+						<div class="icon icon1"></div> 
+    					<h3>Zgłaszanie sytuacji</h3> 
+  					</div> 
+  					<div class="card-bottom"> 
+    					<p class="actions-p">Społeczność może zgłaszać przypadki dzikich kotów w potrzebie za pośrednictwem prostego formularza online.Informacje, takie jak lokalizacja, opis sytuacji oraz kontakt do zgłaszającego, są zbierane, aby ułatwić interwencję.</p> 
+  					</div> 
+				</div> 
+					
+				<div class="card"> 
+  					<div class="card-top"> 
+   						<div class=" icon icon2"></div> 
+    					<h3>Interwencja</h3> 
+  					</div> 
+  					<div class="card-bottom"> 
+    					<p class="actions-p">Zespół interwencyjny: Nasz wykwalifikowany zespół działa szybko w przypadkach kryzysowych. W skład zespołu wchodzą weterynarze, behawioryści oraz wolontariusze, którzy są gotowi do akcji w terenie.</p> 
+  					</div> 
+				</div> 
+					
+				<div class="card"> 
+  					<div class="card-top"> 
+   						<div class="icon icon3"></div> 
+    					<h3>Ocena stanu zdrowia</h3> 
+  					</div> 
+  					<div class="card-bottom"> 
+    					<p class="actions-p">Badania weterynaryjne: Po złapaniu kota, przeprowadzamy kompleksowe badania, aby ocenić jego stan zdrowia. Testujemy na choroby, urazy i ogólną kondycję. Na podstawie wyników badań tworzymy indywidualny plan leczenia i rehabilitacji.</p> 
+  					</div> 
+				</div> 
+					
+				<div class="card"> 
+  					<div class="card-top"> 
+   						<div class="icon icon4"></div> 
+    					<h3>Rehabilitacja</h3> 
+  					</div> 
+  					<div class="card-bottom"> 
+    					<p class="actions-p">Oferujemy odpowiednią opiekę weterynaryjną, w tym leczenie ran, chorób i zabiegów chirurgicznych, jeśli są konieczne.  Koty często potrzebują czasu na przystosowanie się po traumatycznych doświadczeniach.</p> 
+  					</div> 
+				</div> 
+					
+				<div class="card"> 
+  					<div class="card-top"> 
+   						<div class="icon icon5"></div> 
+    					<h3>Edukacja</h3> 
+  					</div> 
+  					<div class="card-bottom"> 
+    					<p class="actions-p"> Organizujemy warsztaty i prelekcje, aby informować społeczność o dzikich kotach, ich potrzebach oraz sposobach, jak można je chronić. Po rehabilitacji staramy się znaleźć nowe, odpowiedzialne domy dla kotów, oferując wsparcie i doradztwo przyszłym opiekunom.</p> 
+  					</div> 
+				</div> 
+					
+				<div class="card"> 
+  					<div class="card-top"> 
+   						<div class="icon icon6"></div> 
+    					<h3>Monitoring</h3> 
+  					</div> 
+  					<div class="card-bottom"> 
+    					<p class="actions-p">Po adopcji monitorujemy koty, aby upewnić się, że dobrze adaptują się w nowych domach. Regularnie kontaktujemy się z adopcjami, aby zbierać informacje o ich stanie zdrowia i samopoczuciu.</p> 
+  					</div> 
+				</div> 
+	
+			</div>
+			<div class="actions-button">
+						<button class="orange-button">Dowiedz się więcej</button>
+			</div>
+		</section>
+		<section class="unity">
+			<img src="img/index/unity-lions.png" alt="running lions">
+			<div class="unity-content">
+				<div class="unity-content-position">
+					<h2 class="unity-h2">W grupie siła!</h2>
+					<p class="unity-p">Twoja pomoc ma realny wpływ na przyszłość zagrożonych gatunków wielkich kotów. Przekazując darowiznę, wspierasz działania fundacji, które ratują życie dzikim kotom, chronią ich naturalne środowisko i walczą o ich przetrwanie. Każda wpłata, niezależnie od wysokości, przyczynia się do ochrony tych majestatycznych zwierząt.</p>
+					<button class="white-button">Pomagam</button>
+				</div>
+			</div>
+		</section>
+		<section class="news-all">
+				<div class="news-title">
+				<h2>Aktualności</h2>
+				<p class="news-p">Tutaj znajdziesz najnowsze wieści z naszego azylu i terenu – uratowane koty, ważne interwencje, wzruszające historie i sukcesy, które zawdzięczamy ludziom takim jak Ty. Zaglądaj regularnie i zobacz, jak wspólnie zmieniamy świat dzikich kotów na lepsze!</p>
+				</div>
+			<div class="news">
+			<div class="news-articles">
+				<article class="news-box-small-1">
+					<div class="news-box-small-text">
+						<h3>Nowi podopieczni – tygrysy z cyrku w końcu wolne</h3>
+						<a href="#">Dowiedz się więcej</a>
+					</div>
+				</article>
+			
+				<article class="news-box-big-1">
+					<div class="news-box-big-text">
+						<h3>Lew Leo odzyskał zdrowie!</h3>
+						<a href="#">Dowiedz się więcej</a>
+					</div>
+				</article>
+			</div>
+			</div>
+			<div class="news">
+			<div class="news-articles">
+				<article class="news-box-big-2">
+					<div class="news-box-big-text">
+						<h3>Nowy teren pod ochroną – 50 hektarów dla dzikich kotów</h3>
+						<a href="#">Dowiedz się więcej</a>
+					</div>
+				</article>
+			
+				<article class="news-box-small-2">
+					<div class="news-box-small-text">
+						<h3>Kamera uchwyciła dzikiego lamparta!</h3>
+						<a href="#">Dowiedz się więcej</a>
+					</div>
+				</article>
+			</div>
+			</div>
+				
+		</section>
+		<section id="map">
+			<h2>Gdzie mieszkają nasi podopieczni?</h2>
+			<div class="map-img"></div>
+		</section>
+		<section id="better-world">
+			 <div class="better-content">
+				 <h2>Tworzymy lepszy świat dla dzikich kotów</h2>
+				 <h3>Każda uratowana łapa to historia cierpienia, ale i nadziei. Razem zmieniamy życie dzikich kotów – zabieramy je z klatek, dajemy im przestrzeń i opiekę, na którą zasługują. To, co robimy, ma znaczenie – każdego dnia.</h3>
+				 <div class="better-articles">
+				 	<article class="better-article">
+				 		<img src="img/index/better_icon1.svg" alt="arrow icon">
+					 	<p class="better-number">46</p>
+					 	<p class="better-text">W 2024 roku nasza fundacja przeprowadziła 46 misji ratunkowe i przeprowadziła 120 kontroli warunków w nielegalnych hodowlach oraz cyrkach.</p>
+				 	</article>
+				 
+				 	<article class="better-article">
+				 		<img src="img/index/better_icon2.svg" alt="lion icon">
+					 	<p class="better-number">439</p>
+					 	<p class="better-text">Uratowaliśmy 439 dzikich kotów, w tym lwy, tygrysy 
+						i lamparty – wiele z nich po latach cierpienia trafiło do bezpiecznych azylów.</p>
+				 	</article>
+				 
+				 	<article class="better-article">
+				 		<img src="img/index/better_icon3.svg" alt="notepad icon">
+					 	<p class="better-number">350 000+</p>
+					 	<p class="better-text">Ponad 350 000 osób podpisało petycję o zakaz trzymania dzikich kotów w prywatnych rękach. Dzięki tej akcji rząd rozpoczął prace nad nową ustawą ochrony zwierząt egzotycznych.</p>
+				 	</article>
+				 </div>
+			 </div>
+		</section>
+		<section id="message">
+			<div class="message-content">
+				<img src="img/index/pattern_jaguar_dots_left.png" alt="Jaguar dots left" class="message-pattern-left">
+				<img src="img/index/message_lion.png" alt="lion cub">
+				<article class="message-form">
+					<h2>Napisz do nas!</h2>
+					<h3>Imię i Nazwisko</h3>
+					<input type="name" name="name" placeholder="Imię i nazwisko" class="message-inputs" required>
+					<h3>E-mail</h3>
+					<input type="e-mail" name="e-mail" placeholder="E-mail" class="message-inputs" required>
+					<h3>Twoja wiadomość</h3>
+					<textarea name="message" placeholder="Twoja wiadomość" class="message-inputs" required></textarea>
+					<button class="orange-button">Wyślij</button>
+				</article>
+				<img src="img/index/pattern_jaguar_dots_right.png" alt="Jaguar dots right" class="message-pattern-right">
+			</div>
+		</section>
+		<section id="socials">
+			<div class="socials-content">
+				<h4>Zaobserwuj nas</h4>
+				<div class="socials-icons">
+				
+					<a href="#" target="_blank">
+			  		<img src="img/index/social_facebook.svg" alt="Facebook">
+			  		</a>
+				
+					<a href="#" target="_blank">
+			  		<img src="img/index/social_instagram.svg" alt="Instagram">
+			  		</a>
+				
+					<a href="#" target="_blank">
+			  		<img src="img/index/social_tiktok.svg" alt="TikTok">
+			  		</a>
+				
+					<a href="#" target="_blank">
+			  		<img src="img/index/social_youtube.svg" alt="YouTube">
+			  		</a>
+				
+					<a href="#" target="_blank">
+			  		<img src="img/index/social_linkedin.svg" 	alt="Linkedin">
+			  		</a>
+				</div>	
+			</div>
+		</section>
+		<section id="footer">
+			<div class="footer-content">
+				
+				<div class="footer-content-text">
+					<ol>
+			  		<li><h3>O fundacji</h3></li>
+			  		<li><a href="#">O nas</a></li>
+			  		<li><a href="#">Nasz zespół</a></li>
+					<li><a href="#">Misja fundacji</a></li>
+					<li><a href="#">Partnerzy</a></li>
+					</ol>
+        		</div>
+				
+				<div class="footer-content-text">
+					<ol>
+			  		<li><h3>Co robimy</h3></li>
+			  		<li><a href="#">Gdzie działamy</a></li>
+			  		<li><a href="#">Afryka</a></li>
+					<li><a href="#">Ameryka Południowa</a></li>
+					<li><a href="#">Azja</a></li>
+					</ol>
+        		</div>
+				
+				<div class="footer-content-text">
+					<ol>
+			  		<li><h3>Wsparcie</h3></li>
+			  		<li><a href="#">Adoptuj kota</a></li>
+			  		<li><a href="#">Dotacje</a></li>
+					<li><a href="#">Wolontariat</a></li>
+					</ol>
+        		</div>
+				
+				<div class="footer-content-text">
+					<ol>
+						<li><h3>Zapisz się do Newslettera</h3></li>
+						<input type="email" placeholder="Wpisz e-mail">
+						<div id="zgody">
+							<label for="regulamin">
+								<input type="checkbox" id="regulamin" unchecked>
+								<span>
+								Zamawiam usługę Newsletter i wyrażam zgodę na świadczenie jej na podstawie 
+								</span>
+								<a href=>Regulaminu Usługi Newsletter</a>
+							</label>
+							<div class="button">
+								<button class="orange-button">Wyślij</button>	
+							</div>
+	            		</div>
+					</ol>
+        		</div>
+			</div>
+		</section>
+		<section class="copyright">
+			<div class="copyright-content">
+				<p class="copy-text">© 2025 Beata Kurek | Fundacja Lynx Foundation ratująca dzikie koty. Wszystkie prawa zastrzeżone.</p>
+			</div>
+		</section>
+		
+	</body>
+</html>

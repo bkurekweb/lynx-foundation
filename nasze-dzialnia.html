@@ -1,0 +1,360 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Praca licencjacka Beata Kurek</title>
+		
+		<link rel="stylesheet" type="text/css" href="CSS/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="CSS/style.css"/>
+		<link rel="stylesheet" type="text/css" href="CSS/style-nasze-dzialania.css"/>
+	</head>
+
+<body>
+	<!--	Nawigacja mobile	 -->
+		<div class="nakladka" id="MENU">
+			<span class="zamknijX" onClick="zamknijMENU()">&times;</span> <!--Ikonka mnożenia wygląda jak X-->
+			<ol>
+				<li><a href="index.html" onClick="zamknijMENU()">Strona główna</a></li>
+				<li><a href="o-nas.html" onClick="zamknijMENU()">O nas</a></li>
+				<li><a href="nasze-dzialnia.html" onClick="zamknijMENU()">Nasze działania</a></li>
+				<li><a href="adoptuj.html" onClick="zamknijMENU()">Adoptuj kota</a></li>
+			</ol>
+		</div>
+		<span class="burger" onClick="otworzMENU()">&#9776;</span>
+		<script>
+		/*Javascript*/
+		function otworzMENU(){
+			document.getElementById("MENU").style.width="100%";
+		} /*koniec funkcji otworzMENU*/
+		
+		function zamknijMENU(){
+			document.getElementById("MENU").style.width="0";
+		} /*koniec funkcji zamknijMENU*/
+		</script>
+<!--	Nawigacja desktop	-->
+		<nav>
+			<div class="nav-content">
+			<div class="logo-nav">
+				<img src="img/index/lynx_logo.svg" alt="logo Lynx Foundation">
+				<p class="Name">Lynx Foundation</p>
+			</div>
+			<div class="links-nav">
+				<ol>
+					<li><a href="index.html">Strona główna</a></li>
+					<li><a href="o-nas.html">O nas</a></li>
+					<li><a href="nasze-dzialnia.html">Nasze działania</a></li>
+					<li><a href="adoptuj.html">Adoptuj kota</a></li>
+				</ol>
+				<button class="white-button">Wesprzyj</button>
+			</div>	
+			</div>
+		</nav>
+	
+			<section class="hero">
+			<img src="img/nasze-dzialania/pattern_jaguar_dots_right.png" alt="jaguar dots"> 
+			<div class="hero-content">
+				<div class="hero-text">
+					<h1>Nasze działania</h1>
+					<p class="hero-p">W Lynx Foundation działamy na rzecz ochrony dużych dzikich kotów – majestatycznych drapieżników.</p>
+					<div class="hero-button">
+						<button class="white-button">Sprawdź</button>
+					</div>
+				</div>
+			</div>
+		</section>
+	
+		<section class="ending"></section>
+	
+		<section id="maps">
+			<div class="maps-content">
+				<h2>Gdzie działamy?</h2>
+				<p class="maps-p">W sercu indyjskich dżungli, afrykańskich sawann i brazylijskich lasów tropikalnych – tam, gdzie żyją tygrysy, lwy i jaguary – jesteśmy obecni, by dawać nadzieję. Nasze misje w 	<b>Indiach, Tanzanii i Brazylii</b> zmieniają los dzikich kotów każdego dnia.</p>
+				<div class="maps-articles">
+				<article class="map">
+					<div class="map-img1"></div>
+					<p class="map-p">Indie</p>
+				</article>
+			
+				<article class="map">
+					<div class="map-img2"></div>
+					<p class="map-p">Tanzania</p>
+				</article>
+			
+				<article class="map">
+					<div class="map-img3"></div>
+					<p class="map-p">Brazylia</p>
+				</article>
+				</div>
+			</div>
+		</section>
+	
+		<section id="description-maps">
+			<div class="description-maps-content">
+				<div class="description-maps-articles">
+					<article class="description-maps-article">
+						<img src="img/nasze-dzialania/description-tigers.png" alt="playing tigers">
+						<div class="description-maps-article-text">
+							<h3>Indie</h3>
+							<p>W Indiach skupiamy się na ochronie tygrysów bengalskich, lampartów i ostatnich lwów azjatyckich. Działamy w pobliżu kluczowych rezerwatów przyrody, prowadząc ośrodki takie jak <b>Shakti Sanctuary, Vanraksha Reserve czy Tiger’s Path Rescue Center.</b> Pomagamy rannym i osieroconym kotom, prowadzimy edukację i wspieramy działania na rzecz ochrony siedlisk.</p>
+							<button class="orange-button">Dowiedz się więcej</button>
+						</div>
+					</article>
+				
+					<article class="description-maps-article">
+						<img src="img/nasze-dzialania/description-lioness.png" alt="lioness">
+						<div class="description-maps-article-text">
+							<h3>Tanzania</h3>
+							<p>Tanzania to serce afrykańskiej sawanny, gdzie ratujemy lwy, gepardy i lamparty. W ośrodkach takich jak <b>Pride Rock Sanctuary, Asili Big Cat Refuge czy Simba’s Echo Wildlife Center</b> zapewniamy opiekę, rehabilitację i monitoring dzikich kotów. Współpracujemy z lokalnymi społecznościami, by ograniczyć konflikty człowiek–drapieżnik.</p>
+							<button class="orange-button">Dowiedz się więcej</button>
+						</div>
+					</article>
+				
+					<article class="description-maps-article">
+						<img src="img/nasze-dzialania/description-cougar.png" alt="cougar">
+						<div class="description-maps-article-text">
+							<h3>Brazylia</h3>
+							<p>W Brazylii działamy na rzecz jaguarów i pum, które coraz częściej tracą swoje siedliska w Amazonii i Pantanalu. Prowadzimy ośrodki ratunkowe, m.in. <b>Onça Verde Sanctuary, Jaguar do Sol Refuge i Mato Bravo Haven</b>, a także mobilny <b>Felino Livre Project</b>, który reaguje na pilne zgłoszenia z terenów zagrożonych.</p>
+							<button class="orange-button">Dowiedz się więcej</button>
+						</div>
+					</article>
+				</div>
+			</div>
+		</section>
+	
+		<section id="team">
+			<div class="team-content">
+				<h3>Nasz zespół</h3>
+				<div class="team-articles">
+					<article class="team-article">
+						<img src="img/nasze-dzialania/jozefina.png" alt="Józefina picture">
+						<h4>Józefina Serafin</h4>
+						<p>Specjalista ds. ochrony środowiska Biolog terenowy</p>
+					</article>
+					
+					<article class="team-article">
+						<img src="img/nasze-dzialania/feliks.png" alt="Feliks picture">
+						<h4>Feliks Zawisza</h4>
+						<p>Koordynator Projektów Ochrony</p>
+					</article>
+					
+					<article class="team-article">
+						<img src="img/nasze-dzialania/ignacy.png" alt="Igancy picture">
+						<h4>Ignacy Laskowski</h4>
+						<p>Specjalista ds. Legislacji i Ochrony Prawnej</p>
+					</article>
+				</div>
+			</div>
+		</section>
+		
+		<section id="stories">
+			<div class="stories-content">
+				<h2>Nasze historie</h2>
+				<div class="stories-all-articles">
+					<div class="stories-articles-left">
+						<article class="stories-article-left">
+							<img src="img/nasze-dzialania/stories-tigers.png" alt="tigers">
+							<div class="stories-article-left-text">
+								<p class="stories-article-small-p">Najnowsze wiadomości</p>
+								<h4>Nowi podopieczni – tygrysy z cyrku w końcu wolne!</h4>
+								<p class="stories-article-small-p">22 lipca 2025 | Katarzyna Polońska</p>
+								<p class="stories-article-p">Po latach spędzonych w ciasnych klatkach i nieludzkich warunkach cyrkowych, grupa tygrysów trafiła pod opiekę naszej fundacji. Zwierzęta rozpoczęły proces rehabilitacji w bezpiecznym miejscu.</p>
+							</div>
+						</article>		
+					</div>
+				
+					<div class="stories-articles-right">
+						<article class="stories-article-right">
+							<img src="img/nasze-dzialania/stories-lynx.png" alt="lynx">
+							<div class="stories-article-right-text">
+								<p class="stories-article-small-p">Europa</p>
+								<h4>Powrót na wolność – historia rysi, które przetrwały tylko dzięki szybkiej reakcji</h4>
+								<p class="stories-article-small-p">15 lipca 2025 | Paweł Kawka</p>
+							</div>
+						</article>
+						<article class="stories-article-right">
+							<img src="img/nasze-dzialania/stories-lions.png" alt="lions">
+							<div class="stories-article-right-text">
+								<p class="stories-article-small-p">Azja</p>
+								<h4>Nielegalna hodowla pod przykrywką – 6 dzikich kotów odzyskało wolność</h4>
+								<p class="stories-article-small-p">02 czerwca 2025 | Karolina Kowalska</p>
+							</div>
+						</article>
+						<article class="stories-article-right">
+							<img src="img/nasze-dzialania/stories-camera.png" alt="camera">
+							<div class="stories-article-right-text">
+								<p class="stories-article-small-p">Europa</p>
+								<h4>W obiektywie natury – niesamowite ujęcia dzikich kotów z naszych fotopułapek</h4>
+								<p class="stories-article-small-p">27 kwietnia 2025 | Monika Nowak</p>
+							</div>
+						</article>
+					</div>
+				</div>
+			</div>
+		</section>
+	
+		<section id="partners">
+			<div class="partners-content">
+				<h2>Partnerzy</h2>
+				<div class="partners-text">
+					<p>Ratowanie dzikich kotów to ogromne wyzwanie – logistyczne, finansowe i organizacyjne. Dlatego <b>każde nasze działanie możliwe jest dzięki zaangażowaniu i wsparciu naszych partnerów.</b> Współpracujemy z fundacjami, ogrodami zoologicznymi, rezerwatami przyrody, instytucjami badawczymi, firmami odpowiedzialnymi społecznie oraz organizacjami lokalnymi, które podzielają naszą misję ochrony dzikiej przyrody.</p>
+					<p>Wierzymy, że prawdziwa zmiana jest możliwa tylko wtedy, gdy działamy wspólnie. Dlatego z dumą tworzymy międzynarodową sieć współpracy, która realnie wpływa na los tysięcy zwierząt i przyszłość zagrożonych gatunków.
+					<br><br><b>Dziękujemy wszystkim, którzy są częścią tej drogi.</b> Wasze wsparcie daje im szansę na życie w dobrych warunkach.</p>
+				</div>
+				<div class="partners-logo">
+					<img src="img/nasze-dzialania/partners-wwf.svg" alt="wwf">
+					<img src="img/nasze-dzialania/partners-bialy-lew.svg" alt="fundacja biały lew">
+					<img src="img/nasze-dzialania/partners-save.svg" alt="save wild cats">
+					<img src="img/nasze-dzialania/partners-panthera.svg" alt="panthera">
+				</div>
+			</div>
+		</section>
+	
+		<section id="donate">
+			<div class="donate-content">
+				<img src="img/nasze-dzialania/pattern_dots_left.png" alt="Jaguar dots left" class="donate-pattern-left">
+				<div class="form-wrapper">
+  					<div class="tabs">
+  						<input type="radio" name="tab" id="tab1" checked>
+  						<label for="tab1" class="tab">Datek jednorazowy</label>
+
+  						<input type="radio" name="tab" id="tab2">
+  						<label for="tab2" class="tab">Cykliczny datek</label>
+
+  						<span class="slider"></span>
+					</div>
+
+  					<form class="donation-form">
+
+    				<label>Kwota jednorazowego wsparcia (PLN)
+     				<input type="number" placeholder="">
+    				</label>
+
+    				<label>Imię i nazwisko / Nazwa firmy
+     				<input type="text" placeholder="">
+    				</label>
+
+    				<label>E-mail
+      				<input type="text " placeholder="">
+    				</label>
+
+    				<label>Płatność
+     					<div class="select-wrapper">
+        					<select>
+          						<option>Wybierz metodę płatności</option>
+          						<option>BLIK</option>
+          						<option>Karta</option>
+          						<option>Przelew</option>
+        					</select>
+        				<span class="arrow">➜</span>
+      					</div>
+    				</label>
+
+    				<label class="checkbox1">
+      					<input type="checkbox">
+      					<span>
+       					Wyrażam zgodę na zbieranie, przetwarzanie i wykorzystywanie moich danych do celów obsługi płatności.
+      					</span>
+    				</label>
+
+    				<button class="orange-button">Przejdź do płatności</button>
+
+  					</form>
+				</div>
+				
+				<div class="donate-text">
+					<h3>Przekaż darowiznę jednorazową lub w formie comiesięcznego wsparcia</h3>
+					<p>Twoja jednorazowa lub regularna wpłata pomaga nam zapewnić opiekę rannym zwierzętom, chronić ich naturalne siedliska oraz prowadzić działania edukacyjne i badawcze.</p> 
+					<p>Każda, nawet najmniejsza kwota, ma znaczenie i przyczynia się do ochrony tych niezwykłych drapieżników oraz całego ekosystemu, w którym żyją.</p> 
+					<p><b>Dołącz do nas</b> i razem zmieniajmy ich świat na lepsze!</p>
+				</div>
+				<img src="img/nasze-dzialania/pattern_dots_right.png" alt="Jaguar dots right" class="donate-pattern-right">
+			</div>
+		</section>
+	
+		<section id="socials">
+			<div class="socials-content">
+				<h4>Zaobserwuj nas</h4>
+				<div class="socials-icons">
+				
+					<a href="#" target="_blank">
+			  		<img src="img/index/social_facebook.svg" alt="Facebook">
+			  		</a>
+				
+					<a href="#" target="_blank">
+			  		<img src="img/index/social_instagram.svg" alt="Instagram">
+			  		</a>
+				
+					<a href="#" target="_blank">
+			  		<img src="img/index/social_tiktok.svg" alt="TikTok">
+			  		</a>
+				
+					<a href="#" target="_blank">
+			  		<img src="img/index/social_youtube.svg" alt="YouTube">
+			  		</a>
+				
+					<a href="#" target="_blank">
+			  		<img src="img/index/social_linkedin.svg" 	alt="Linkedin">
+			  		</a>
+				</div>	
+			</div>
+		</section>
+		<section id="footer">
+			<div class="footer-content">
+				
+				<div class="footer-content-text">
+					<ol>
+			  		<li><h3>O fundacji</h3></li>
+			  		<li><a href="#">O nas</a></li>
+			  		<li><a href="#">Nasz zespół</a></li>
+					<li><a href="#">Misja fundacji</a></li>
+					<li><a href="#">Partnerzy</a></li>
+					</ol>
+        		</div>
+				
+				<div class="footer-content-text">
+					<ol>
+			  		<li><h3>Co robimy</h3></li>
+			  		<li><a href="#">Gdzie działamy</a></li>
+			  		<li><a href="#">Afryka</a></li>
+					<li><a href="#">Ameryka Południowa</a></li>
+					<li><a href="#">Azja</a></li>
+					</ol>
+        		</div>
+				
+				<div class="footer-content-text">
+					<ol>
+			  		<li><h3>Wsparcie</h3></li>
+			  		<li><a href="#">Adoptuj kota</a></li>
+			  		<li><a href="#">Dotacje</a></li>
+					<li><a href="#">Wolontariat</a></li>
+					</ol>
+        		</div>
+				
+				<div class="footer-content-text">
+					<ol>
+						<li><h3>Zapisz się do Newslettera</h3></li>
+						<input type="email" placeholder="Wpisz e-mail">
+						<div id="zgody">
+							<label for="regulamin">
+								<input type="checkbox" id="regulamin" unchecked>
+								<span>
+								Zamawiam usługę Newsletter i wyrażam zgodę na świadczenie jej na podstawie
+								</span> 
+							<a href=>Regulaminu Usługi Newsletter</a>
+							</label>
+							<div class="button">
+								<button class="orange-button">Wyślij</button>	
+							</div>
+	            		</div>
+					</ol>
+        		</div>
+			</div>
+		</section>
+		<section class="copyright">
+			<div class="copyright-content">
+				<p class="copy-text">© 2025 Beata Kurek | Fundacja Lynx Foundation ratująca dzikie koty. Wszystkie prawa zastrzeżone.</p>
+			</div>
+		</section>
+</body>
+</html>

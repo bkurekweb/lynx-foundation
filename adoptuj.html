@@ -1,0 +1,290 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Praca licencjacka Beata Kurek</title>
+		
+		<link rel="stylesheet" type="text/css" href="CSS/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="CSS/style.css"/>
+		<link rel="stylesheet" type="text/css" href="CSS/style-adoptuj.css"/>
+	</head>
+
+<body>
+	<!--	Nawigacja mobile	 -->
+		<div class="nakladka" id="MENU">
+			<span class="zamknijX" onClick="zamknijMENU()">&times;</span> <!--Ikonka mnożenia wygląda jak X-->
+			<ol>
+				<li><a href="index.html" onClick="zamknijMENU()">Strona główna</a></li>
+				<li><a href="o-nas.html" onClick="zamknijMENU()">O nas</a></li>
+				<li><a href="nasze-dzialnia.html" onClick="zamknijMENU()">Nasze działania</a></li>
+				<li><a href="adoptuj.html" onClick="zamknijMENU()">Adoptuj kota</a></li>
+			</ol>
+		</div>
+		<span class="burger" onClick="otworzMENU()">&#9776;</span>
+		<script>
+		/*Javascript*/
+		function otworzMENU(){
+			document.getElementById("MENU").style.width="100%";
+		} /*koniec funkcji otworzMENU*/
+		
+		function zamknijMENU(){
+			document.getElementById("MENU").style.width="0";
+		} /*koniec funkcji zamknijMENU*/
+		
+		</script>
+<!--	Nawigacja desktop	-->
+		<nav>
+			<div class="nav-content">
+			<div class="logo-nav">
+				<img src="img/index/lynx_logo.svg" alt="logo Lynx Foundation">
+				<p class="Name">Lynx Foundation</p>
+			</div>
+			<div class="links-nav">
+				<ol>
+					<li><a href="index.html">Strona główna</a></li>
+					<li><a href="o-nas.html">O nas</a></li>
+					<li><a href="nasze-dzialnia.html">Nasze działania</a></li>
+					<li><a href="adoptuj.html">Adoptuj kota</a></li>
+				</ol>
+				<button class="white-button">Wesprzyj</button>
+			</div>	
+			</div>
+		</nav>
+	
+		<section class="hero">
+			<img src="img/adoptuj/pattern_dots.png" alt="dots"> 
+			<div class="hero-content">
+				<div class="hero-text">
+					<h1>Adoptuj kota</h1>
+					<p class="hero-p">Adoptując dzikiego kota, dajesz mu szansę na lepsze życie – a sobie przyjaciela na zawsze.</p>
+					<div class="hero-button">
+						<button class="white-button">Sklep</button>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="ending"></section>
+	
+		<section id="description">
+			<div class="description-content">
+				<img src="img/adoptuj/lions.png" alt="lioness and a cub picture">
+				<div class="description-text">
+					<h3>Symboliczna pomoc - realne działania fundacji</h3>
+					<p class="description-p">Kupując symboliczne produkty, takie jak certyfikaty adopcji czy gadżety z motywami dzikich kotów, wspierasz nasze projekty ochrony rysi, tygrysów i innych zagrożonych gatunków.<b>Twoja pomoc to nie tylko piękny gest, ale realne wsparcie w ratowaniu dzikich kotów i ich siedlisk.</b> Dołącz do nas i bądź częścią zmiany!</p>
+					<button class="orange-button">Nasz sklep</button>
+				</div>
+			</div>
+			<img src="img/adoptuj/pattern_tail.png"  class="tail " alt="tail">
+		</section>
+	
+		<section id="line">
+  			<div class="line-marquee">
+    			<div class="track">
+     				 <!-- KOPIA 1 -->
+      				<article class="line-article">
+        				<img src="img/adoptuj/line_paw.png" alt="paw">
+        				<p class="line-text">Pomaga naszej fundacji</p>
+      				</article>
+
+      				<article class="line-article">
+        				<img src="img/adoptuj/line_heart.png" alt="heart">
+        				<p class="line-text">Wykonana z miłością do zwierząt</p>
+     			 	</article>
+
+      				<article class="line-article">
+        				<img src="img/adoptuj/line_truck.png" alt="truck">
+        				<p class="line-text">Bezpłatna wysyłka</p>
+      				</article>
+
+      				<!-- KOPIA 2 (taka sama jak pierwsza) -->
+      				<article class="line-article">
+        				<img src="img/adoptuj/line_paw.png" alt="paw">
+        				<p class="line-text">Pomaga naszej fundacji</p>
+      				</article>
+
+      				<article class="line-article">
+        				<img src="img/adoptuj/line_heart.png" alt="heart">
+        				<p class="line-text">Wykonana z miłością do zwierząt</p>
+      				</article>
+
+      				<article class="line-article">
+        				<img src="img/adoptuj/line_truck.png" alt="truck">
+        				<p class="line-text">Bezpłatna wysyłka</p>
+      				</article>
+		
+		    				<!-- KOPIA 3 (taka sama jak pierwsza) -->
+      				<article class="line-article">
+        				<img src="img/adoptuj/line_paw.png" alt="paw">
+        				<p class="line-text">Pomaga naszej fundacji</p>
+      				</article>
+
+      				<article class="line-article">
+        				<img src="img/adoptuj/line_heart.png" alt="heart">
+        				<p class="line-text">Wykonana z miłością do zwierząt</p>
+      				</article>
+
+      				<article class="line-article">
+        				<img src="img/adoptuj/line_truck.png" alt="truck">
+        				<p class="line-text">Bezpłatna wysyłka</p>
+      				</article>
+    				</div>
+  				</div>
+		</section>
+	
+		<section id="bracelets">
+			<div class="bracelets-content">
+				<h2>Symboliczna bransoletka</h2>
+				<div class="bracelets">
+					<article class="bracelet">
+						<img src="img/adoptuj/bracelet_1.png" alt="bracelet">
+						<h4>Bransoletka lampart</h4>
+						<p>96,70 PLN</p>
+					</article>
+					<article class="bracelet">
+						<img src="img/adoptuj/bracelet_2.png" alt="bracelet">
+						<h4>Bransoletka lampart</h4>
+						<p>96,70 PLN</p>
+					</article>
+					<article class="bracelet">
+						<img src="img/adoptuj/bracelet_3.png" alt="bracelet">
+						<h4>Bransoletka lampart</h4>
+						<p>96,70 PLN</p>
+					</article>
+					<article class="bracelet">
+						<img src="img/adoptuj/bracelet_4.png" alt="bracelet">
+						<h4>Bransoletka lampart</h4>
+						<p>96,70 PLN</p>
+					</article>
+				</div>
+				<button class="orange-button">Sprawdź więcej</button>
+			</div>
+		</section>
+	
+		<section id="reviews">
+			<div class="reviews-content">
+				<h2>Opinie naszych bohaterów</h2>
+				<div class="reviews-articles">
+					<article class="review">
+						<h4>Alicja M.</h4>
+						<img src="img/adoptuj/stars.png" alt="stars">
+						<p>Fajna jakość, piękny cel, super pomysł. Kupiłam już drugą – jedna dla mnie, druga dla siostry. To trochę jak wspólne 'kocie' zobowiązanie, że chcemy coś zmienić.</p>
+					</article>
+					<article class="review">
+						<h4>Janek B.</h4>
+						<img src="img/adoptuj/stars.png" alt="stars">
+						<p>Mega pomysł! Zamówiłem bransoletkę i jestem totalnie zakochany – jest prosta, ładna i ma super znaczenie. Fajnie wiedzieć, że gdzieś tam dzięki temu moja pantera (symbolicznie oczywiście) ma trochę lepiej. Polecam każdemu, kto chce zrobić coś dobrego bez wychodzenia z domu!</p>
+					</article>
+					<article class="review">
+						<h4>Mateusz K.</h4>
+						<img src="img/adoptuj/stars.png" alt="stars">
+						<p>Piękna bransoletka z przesłaniem! Noszę ją z dumą, wiedząc, że pomagam chronić dzikie koty. Idealny prezent z sercem. Bransoletka jest elegancka i starannie wykonana, ale najważniejsze jest to, że wspieram działania ratujące dzikie koty.</p>
+					</article>
+					<article class="review">
+						<h4>Beata K.</h4>
+						<img src="img/adoptuj/stars.png" alt="stars">
+						<p>Wiem, że jestem częścią czegoś ważnego. Symboliczna adopcja dzikiego kota to świetny sposób, żeby realnie pomóc, a jednocześnie codziennie przypominać sobie, że każde życie w naturze ma znaczenie.</p>
+					</article>
+					<article class="review">
+						<h4>Norbert N.</h4>
+						<img src="img/adoptuj/stars.png" alt="stars">
+						<p>Kiedy zobaczyłam możliwość symbolicznej adopcji tygrysa, nie wahałam się ani chwili. Bransoletka, którą otrzymałem, jest subtelna, a jednak ma ogromne znaczenie. To coś, co noszę z dumą – bo wiem, że wspieram walkę o przyszłość zagrożonych gatunków.</p>
+					</article>
+					<article class="review">
+						<h4>Marta K.</h4>
+						<img src="img/adoptuj/stars.png" alt="stars">
+						<p>Kupiłam symboliczną bransoletkę z rysiem i przyszła w pięknym, ekologicznym opakowaniu! Fajnie wiedzieć, że część pieniędzy idzie na ochronę dzikich kotów.</p>
+					</article>
+					<article class="review">
+						<h4>Karol W.</h4>
+						<img src="img/adoptuj/stars.png" alt="stars">
+						<p>Pomysł fajny, ale trudno znaleźć konkretne informacje, gdzie dokładnie trafiają środki z bransoletek. Chciałabym więcej przejrzystości.</p>
+					</article>
+				</div>
+			</div>
+		</section>
+	
+		<section id="socials">
+			<div class="socials-content">
+				<h4>Zaobserwuj nas</h4>
+				<div class="socials-icons">
+				
+					<a href="#" target="_blank">
+			  		<img src="img/index/social_facebook.svg" alt="Facebook">
+			  		</a>
+				
+					<a href="#" target="_blank">
+			  		<img src="img/index/social_instagram.svg" alt="Instagram">
+			  		</a>
+				
+					<a href="#" target="_blank">
+			  		<img src="img/index/social_tiktok.svg" alt="TikTok">
+			  		</a>
+				
+					<a href="#" target="_blank">
+			  		<img src="img/index/social_youtube.svg" alt="YouTube">
+			  		</a>
+				
+					<a href="#" target="_blank">
+			  		<img src="img/index/social_linkedin.svg" 	alt="Linkedin">
+			  		</a>
+				</div>	
+			</div>
+		</section>
+		<section id="footer">
+			<div class="footer-content">
+				
+				<div class="footer-content-text">
+					<ol>
+			  		<li><h3>O fundacji</h3></li>
+			  		<li><a href="#">O nas</a></li>
+			  		<li><a href="#">Nasz zespół</a></li>
+					<li><a href="#">Misja fundacji</a></li>
+					<li><a href="#">Partnerzy</a></li>
+					</ol>
+        		</div>
+				
+				<div class="footer-content-text">
+					<ol>
+			  		<li><h3>Co robimy</h3></li>
+			  		<li><a href="#">Gdzie działamy</a></li>
+			  		<li><a href="#">Afryka</a></li>
+					<li><a href="#">Ameryka Południowa</a></li>
+					<li><a href="#">Azja</a></li>
+					</ol>
+        		</div>
+				
+				<div class="footer-content-text">
+					<ol>
+			  		<li><h3>Wsparcie</h3></li>
+			  		<li><a href="#">Adoptuj kota</a></li>
+			  		<li><a href="#">Dotacje</a></li>
+					<li><a href="#">Wolontariat</a></li>
+					</ol>
+        		</div>
+				
+				<div class="footer-content-text">
+					<ol>
+						<li><h3>Zapisz się do Newslettera</h3></li>
+						<input type="email" placeholder="Wpisz e-mail">
+						<div id="zgody">
+	            			<input type="checkbox" id="regulamin" unchecked>
+							<label for="regulamin">
+							Zamawiam usługę Newsletter i wyrażam zgodę na świadczenie jej na podstawie 
+							<a href=>Regulaminu Usługi Newsletter</a>
+							</label>
+							<div class="button">
+								<button class="orange-button">Wyślij</button>	
+							</div>
+	            		</div>
+					</ol>
+        		</div>
+			</div>
+		</section>
+		<section class="copyright">
+			<div class="copyright-content">
+				<p class="copy-text">© 2025 Beata Kurek | Fundacja Lynx Foundation ratująca dzikie koty. Wszystkie prawa zastrzeżone.</p>
+			</div>
+		</section>
+</body>
+</html>

@@ -1,0 +1,262 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		<title>Praca licencjacka Beata Kurek</title>
+		
+		<link rel="stylesheet" type="text/css" href="CSS/reset.css"/>
+		<link rel="stylesheet" type="text/css" href="CSS/style.css"/>
+		<link rel="stylesheet" type="text/css" href="CSS/style-o-nas.css"/>
+	</head>
+
+<body>
+	<!--	Nawigacja mobile	 -->
+		<div class="nakladka" id="MENU">
+			<span class="zamknijX" onClick="zamknijMENU()">&times;</span> <!--Ikonka mnożenia wygląda jak X-->
+			<ol>
+				<li><a href="index.html" onClick="zamknijMENU()">Strona główna</a></li>
+				<li><a href="o-nas.html" onClick="zamknijMENU()">O nas</a></li>
+				<li><a href="nasze-dzialnia.html" onClick="zamknijMENU()">Nasze działania</a></li>
+				<li><a href="adoptuj.html" onClick="zamknijMENU()">Adoptuj kota</a></li>
+			</ol>
+		</div>
+		<span class="burger" onClick="otworzMENU()">&#9776;</span>
+		<script>
+		/*Javascript*/
+		function otworzMENU(){
+			document.getElementById("MENU").style.width="100%";
+		} /*koniec funkcji otworzMENU*/
+		
+		function zamknijMENU(){
+			document.getElementById("MENU").style.width="0";
+		} /*koniec funkcji zamknijMENU*/
+		
+		</script>
+<!--	Nawigacja desktop	-->
+		<nav>
+			<div class="nav-content">
+			<div class="logo-nav">
+				<img src="img/index/lynx_logo.svg" alt="logo Lynx Foundation">
+				<p class="Name">Lynx Foundation</p>
+			</div>
+			<div class="links-nav">
+				<ol>
+					<li><a href="index.html">Strona główna</a></li>
+					<li><a href="o-nas.html">O nas</a></li>
+					<li><a href="nasze-dzialnia.html">Nasze działania</a></li>
+					<li><a href="adoptuj.html">Adoptuj kota</a></li>
+				</ol>
+				<button class="white-button">Wesprzyj</button>
+			</div>	
+			</div>
+		</nav>
+		
+		<section class="hero">
+			<img src="img/o-nas/pattern_dots.png" alt="dots"> 
+			<div class="hero-content">
+				<div class="hero-text">
+					<h1>O nas</h1>
+					<p class="hero-p">Lynx Foundation to organizacja, która od lat stawia na pierwszym miejscu ochronę dzikich kotów.</p>
+					<div class="hero-button">
+						<button class="white-button">Poznaj nas</button>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section class="ending"></section>
+	
+		<section id="description">
+			<div class="description-content">
+				<img src="img/o-nas/description_1.png" alt="lynx picture">
+				<div class="description-text">
+					<h3>Nasza historia, nasza siła</h3>
+					<p class="description-p"><b>Lynx Foundation</b> to organizacja non-profit powstała z miłości i szacunku do dzikich kotów. Działamy na rzecz ochrony zagrożonych gatunków dużych kotów – od rysi, przez lamparty, aż po lwy i tygrysy. <b>Naszą misją jest ratowanie, rehabilitacja i zapewnienie bezpiecznego schronienia zwierzętom</b>, które padły ofiarą przemytu, nielegalnych hodowli, cyrków lub utraciły swoje naturalne środowisko.</p> 
+					
+					<p class="description-p">Działamy <b>lokalnie i globalnie</b> – łącząc siły z ekspertami, weterynarzami i organizacjami na całym świecie. Edukujemy, interweniujemy i dajemy tym niezwykłym zwierzętom drugą szansę na życie.</p>
+				</div>
+			</div>
+		</section>
+	
+	<section id="description2">
+			<div class="description-content2">
+				<img src="img/o-nas/description_2.png" alt="people picture">
+				<div class="description-text">
+					<h3>Serce naszej fundacji</h3>
+					<p class="description-p">Wierzymy, że każde dzikie zwierzę zasługuje na <b>życie wolne od cierpienia i wykorzystania.</b> Dlatego walczymy z handlem dzikimi kotami, edukujemy społeczeństwo o ich potrzebach i prawach oraz wspieramy projekty przywracające je naturze..</p> 
+					
+					<p class="description-p">Nasze wartości to <b>szacunek do dzikiej natury, transparentność działań, etyczna opieka i rehabilitacja</b>, działanie dla dobra gatunku, nie człowieka. Lynx Foundation to nie tylko fundacja – to społeczność ludzi, którzy nie godzą się na obojętność wobec losu dzikich kotów.</p>
+				</div>
+			</div>
+		</section>
+		
+		<section id="projects">
+			<h2>Nasze aktualne projekty</h2>
+			<div class="projects-content">
+				<article class="project-individual">
+					<img src="img/o-nas/projects_kids.png" alt="kids">
+					<h4>Szkoła Ochrony Dzikich Zwierząt</h4>
+					<p class="projects-p">Edukacja młodzieży i dorosłych na temat ochrony dzikich kotów. Warsztaty i szkolenia dotyczące zagrożeń, ochrony i rehabilitacji rysi, panter i innych gatunków.</p>
+				</article>			
+				<article class="project-individual">
+					<img src="img/o-nas/projects_tigers.png" alt="kids">
+					<h4>Ochrona Kotów w Azji</h4>
+					<p class="projects-p">Współpraca z lokalnymi organizacjami w Azji, by walczyć z kłusownictwem i nielegalnym handlem dzikimi kotami, takimi jak tygrysy i lamparty.</p>
+				</article>	
+				<article class="project-individual">
+					<img src="img/o-nas/projects_lion.png" alt="kids">
+					<h4>Azyl dla Dzikich Kotów</h4>
+					<p class="projects-p">Stworzenie ośrodka rehabilitacyjnego, w którym uratowane dzikie koty będą przechodzić rekonwalescencję i przygotowanie do powrotu do natury.</p>
+				</article>
+			</div>
+			<button class="orange-button">Dowiedz się więcej</button>
+		</section>
+	
+		<section id="quote">
+			<div class="quote-content">
+				<p class="quote-text">„Każdy dziki kot zasługuje na życie pełne wolności, bezpieczeństwa i szacunku. Założyliśmy tę fundację, aby dać im szansę na lepsze jutro. Wierzymy, że razem możemy ocalić nie tylko te niesamowite zwierzęta, ale także zachować równowagę w naturze, której częścią są one od wieków. Nasza praca to nasza misja – nie dla nas, ale dla przyszłych pokoleń dzikich kotów i naszej planety.”</p>
+				<p><b>- Założyciel firmy</b></p>
+			</div>
+		</section>
+	
+		<section id="why">
+			<div class="actions-1">
+				<h2>Dlaczego to robimy?</h2>
+				<p class="actions-main-p">Nasza misja to nie tylko pomoc dzikim kotom, ale również walka o ich przyszłość. Rysie, tygrysy, lwy i inne dzikie koty są kluczowymi elementami ekosystemów, ale ich przetrwanie jest zagrożone przez kłusownictwo, utratę siedlisk i nielegalny handel. Nasza fundacja działa, by chronić te majestatyczne zwierzęta, zapewniając im bezpieczeństwo, rehabilitację oraz edukację społeczną. Wierzymy, że każdy z nas może pomóc w ochronie tych unikalnych stworzeń i przywróceniu równowagi w naturze.</p>
+			</div>
+		</section>
+		<section class="actions">
+			<div class="actions-2">
+				<h3>Jak działamy</h3>
+				<div class="actions-articles">
+					<article class="actions-article">
+						<img src="img/o-nas/actions-1.svg" alt="ikona megafon">
+						<p class="actions-article-p">Reagujemy na przypadki znęcania się,  przetrzymywania i zagrożenia życia dzikich kotów na świecie.</p>
+					</article>	
+			
+					<article class="actions-article">
+						<img src="img/o-nas/actions-2.svg" alt="ikona zdrowie">
+						<p class="actions-article-p">Reagujemy na przypadki znęcania się,  przetrzymywania i zagrożenia życia dzikich kotów na świecie.</p>
+					</article>
+				
+					<article class="actions-article">
+						<img src="img/o-nas/actions-3.svg" alt="ikona edukacja">
+						<p class="actions-article-p">Reagujemy na przypadki znęcania się,  przetrzymywania i zagrożenia życia dzikich kotów na świecie.</p>
+					</article>
+				
+					<article class="actions-article">
+						<img src="img/o-nas/actions-4.svg" alt="ikona interwencja">
+						<p class="actions-article-p">Reagujemy na przypadki znęcania się,  przetrzymywania i zagrożenia życia dzikich kotów na świecie.</p>
+					</article>
+				
+					<article class="actions-article">
+						<img src="img/o-nas/actions-5.svg" alt="ikona rehabilitacja">
+						<p class="actions-article-p">Reagujemy na przypadki znęcania się,  przetrzymywania i zagrożenia życia dzikich kotów na świecie.</p>
+					</article>
+				
+					<article class="actions-article">
+						<img src="img/o-nas/actions-6.svg" alt="ikona monitoring">
+						<p class="actions-article-p">Reagujemy na przypadki znęcania się,  przetrzymywania i zagrożenia życia dzikich kotów na świecie.</p>
+					</article>
+				</div>
+			</div>	
+		</section>
+	
+		<section id="logo">
+			<div class="logo-content">
+				<img src="img/o-nas/tiger_stripes_left.png" alt="tiger  stripes left" class="logo-pattern-left">
+				<img src="img/o-nas/logo.svg" alt="big logo">
+				<article class="logo-text">
+					<h2>Nasze logo</h2>
+					<p class="logo-text-p">Logo Lynx Fundation przedstawia stylizowaną głowę rysia otoczoną liśćmi, co symbolizuje ochronę dzikiej przyrody i troskę o zagrożone gatunki. Minimalistyczny styl i stonowana kolorystyka oddają równowagę między siłą natury a delikatnością działań opartych na szacunku.</p>	
+					<p class="logo-text-p">Fundacja powstała z potrzeby reagowania na dramatyczną sytuację dzikich kotów na świecie. Jej symbolem stała się rysica, której nie udało się uratować, ale której historia zapoczątkowała realną zmianę. Dziś Lynx Fundation działa w Indiach, Tanzanii i Brazylii, ratując, rehabilitując i chroniąc wielkie koty tam, gdzie  tego potrzebują.</p>
+				</article>
+				<img src="img/o-nas/tiger_stripes_right.png" alt="tiger stripes right" class="logo-pattern-right">
+			</div>
+		</section>
+	
+		<section id="socials">
+			<div class="socials-content">
+				<h4>Zaobserwuj nas</h4>
+				<div class="socials-icons">
+				
+					<a href="#" target="_blank">
+			  		<img src="img/index/social_facebook.svg" alt="Facebook">
+			  		</a>
+				
+					<a href="#" target="_blank">
+			  		<img src="img/index/social_instagram.svg" alt="Instagram">
+			  		</a>
+				
+					<a href="#" target="_blank">
+			  		<img src="img/index/social_tiktok.svg" alt="TikTok">
+			  		</a>
+				
+					<a href="#" target="_blank">
+			  		<img src="img/index/social_youtube.svg" alt="YouTube">
+			  		</a>
+				
+					<a href="#" target="_blank">
+			  		<img src="img/index/social_linkedin.svg" 	alt="Linkedin">
+			  		</a>
+				</div>	
+			</div>
+		</section>
+		<section id="footer">
+			<div class="footer-content">
+				
+				<div class="footer-content-text">
+					<ol>
+			  		<li><h3>O fundacji</h3></li>
+			  		<li><a href="#">O nas</a></li>
+			  		<li><a href="#">Nasz zespół</a></li>
+					<li><a href="#">Misja fundacji</a></li>
+					<li><a href="#">Partnerzy</a></li>
+					</ol>
+        		</div>
+				
+				<div class="footer-content-text">
+					<ol>
+			  		<li><h3>Co robimy</h3></li>
+			  		<li><a href="#">Gdzie działamy</a></li>
+			  		<li><a href="#">Afryka</a></li>
+					<li><a href="#">Ameryka Południowa</a></li>
+					<li><a href="#">Azja</a></li>
+					</ol>
+        		</div>
+				
+				<div class="footer-content-text">
+					<ol>
+			  		<li><h3>Wsparcie</h3></li>
+			  		<li><a href="#">Adoptuj kota</a></li>
+			  		<li><a href="#">Dotacje</a></li>
+					<li><a href="#">Wolontariat</a></li>
+					</ol>
+        		</div>
+				
+				<div class="footer-content-text">
+					<ol>
+						<li><h3>Zapisz się do Newslettera</h3></li>
+						<input type="email" placeholder="Wpisz e-mail">
+						<div id="zgody">
+	            			<input type="checkbox" id="regulamin" unchecked>
+							<label for="regulamin">
+							Zamawiam usługę Newsletter i wyrażam zgodę na świadczenie jej na podstawie 
+							<a href=>Regulaminu Usługi Newsletter</a>
+							</label>
+							<div class="button">
+								<button class="orange-button">Wyślij</button>	
+							</div>
+	            		</div>
+					</ol>
+        		</div>
+			</div>
+		</section>
+		<section class="copyright">
+			<div class="copyright-content">
+				<p class="copy-text">© 2025 Beata Kurek | Fundacja Lynx Foundation ratująca dzikie koty. Wszystkie prawa zastrzeżone.</p>
+			</div>
+		</section>
+		
+</body>
+</html>

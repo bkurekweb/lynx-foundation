@@ -1,0 +1,371 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&family=Sen:wght@400..800&family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');
+/*
+- CHERRY BOMB ONE FONT -
+font-family: "Cherry Bomb One", system-ui;
+*/
+/*@import url('https://fonts.googleapis.com/css2?family=Cherry+Bomb+One&display=swap');*/
+
+/*
+- SEN FONT -
+font-family: "Sen", sans-serif;
+*/
+/*@import url('https://fonts.googleapis.com/css2?family=Sen:wght@400..800&display=swap');*/
+
+/*
+- ZAIN FONT -
+font-family: "Zain", sans-serif;
+*/
+/*@import url('https://fonts.googleapis.com/css2?family=Zain:ital,wght@0,200;0,300;0,400;0,700;0,800;0,900;1,300;1,400&display=swap');*/
+
+:root {
+	--off-white: #FFF9ED;
+	--kremowy: #FFF1D7;
+	--pomaranczowy: #FD8E3A;
+	--jasny-zielony: #C8C39F;
+	--zielony: #767D4E;
+	--ciemny-zielony: #5D633B;
+	--najciemniejszy-zielony: #2D311C;
+	--ciemny-szary: #222222;
+}
+
+/*KOLORY
+
+off-white #FFF9ED
+kremowy #FFF1D7
+pomarańczowy #FD8E3A
+jasny zielony #C8C39F
+zielony #767D4E
+ciemny zielony #5D633B
+najciemniejszy zielony #2D311C
+
+*/
+
+
+/* CSS Document */
+
+/* SELEKTORY GLOBALNE */
+*{
+	box-sizing: border-box;
+	transition: 600ms;
+}
+html{
+	overflow-x: hidden;
+	overflow-y: auto;
+	scroll-behavior: smooth;
+	font-family: "Sen", sans-serif;
+	font-size: 10px;
+}
+body{
+	background-image: url("../img/index/background_pattern.png");
+	background-repeat: repeat;
+	background-color: var(--kremowy);
+	font-family: "Sen", sans-serif;
+	font-size: 1.6rem;
+	line-height: 140%;
+}
+a{
+	text-decoration: none;
+	font-family: "Zain", sans-serif;
+}
+section{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	padding: 3rem;
+}
+h2{
+	font-family: "Cherry Bomb One", system-ui;
+	font-size: 4.8rem;
+	color: #FD8E3A;
+}
+p, h1, h2, h3{
+	line-height: 140%;
+}
+
+.white-button{
+	background-color: var(--off-white);
+	color: var(--zielony);
+	font-family: "Sen", sans-serif;
+	font-weight: 700;
+	font-size: 1.8rem;
+	text-transform: uppercase;
+	border: none;
+	border-radius: 3.2rem;
+	padding: 1.5rem 3.2rem;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+}
+.white-button:hover{
+	cursor: pointer;
+	background-color: white;
+	box-shadow: 0.3rem 0.3rem 1rem #42462B;
+}
+.orange-button{
+	background-color: #FD8E3A; /*pomarańczowy*/
+	color: var(--off-white);
+	font-family: "Sen", sans-serif;
+	font-weight: 700;
+	font-size: 1.8rem;
+	text-transform: uppercase;
+	border: none;
+	border-radius: 3.2rem;
+	padding: 1.5rem 3.2rem;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	cursor: pointer;
+}
+.orange-button:hover{
+	cursor: pointer;
+	background-color: #FFA25B;
+	box-shadow: 0.3rem 0.3rem 1rem #BFB5A1;
+}
+
+/*NAWIGACJA MOBILE*/
+.burger{
+	background-color: var(--najciemniejszy-zielony);
+	color: #fff;
+	position: fixed;
+	right: 2rem;
+	top: 2rem;
+	font-size: 3rem;
+	padding: 2rem 2rem;
+	cursor: pointer;
+	z-index: 2;
+	display: none;
+}
+
+.burger:hover{
+	background-color: white;
+	color: var(--najciemniejszy-zielony);
+}
+
+.nakladka{
+	background-color: rgba(45, 49, 28, 0.8);
+	position: fixed;
+	top: 0;
+	right: 0;
+	
+	width: 0;
+	height: 100%; 
+	
+	overflow: clip;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	z-index: 200;
+	
+	backdrop-filter: blur(20px);
+	-webkit-backdrop-filter: blur(7.9px);
+}
+
+.nakladka ol{
+	width: 100%;
+	text-align: center;
+	
+}
+.nakladka ol li a{
+	color: white;
+	display: block;
+	padding: 3vh 0rem;
+	margin-bottom: 1vh;
+	text-transform: uppercase;
+	font-size: 3rem;
+	font-weight: 900;
+}
+.nakladka ol li a:hover{
+	background-color: var(--pomaranczowy);
+	color: #111;
+}
+
+.zamknijX{
+	background-color: white;
+	position: absolute;
+	top: 2rem;
+	right: 2rem;
+	font-size: 3.3rem;
+	padding: 2rem 2rem;
+	cursor: pointer;
+	z-index: 999;
+
+}
+.zamknijX:hover{
+	background-color: black;
+	color: white;
+}
+/*NAWIGACJA DESKTOP*/
+nav{
+	background-color: rgba(118, 125, 78, 0.5);
+	backdrop-filter: blur(20px);
+	-webkit-backdrop-filter: blur(7.9px);
+	position: fixed;
+	width: 100%;
+	max-height: 9rem;
+	z-index: 100;
+}
+.nav-content{
+	display: flex;
+	justify-content: space-around;
+	align-items: center;
+}
+.logo-nav{
+	display: flex;
+	align-items: center;
+	max-width: 1420px;
+}
+.logo-nav:hover{
+	cursor: pointer;
+}
+.logo-nav img{
+	width: 8.8rem;
+}
+.logo-nav p{
+	color: white;
+	font-family: "Zain", sans-serif;
+	font-size: 2.4rem;
+}
+.links-nav{
+	display: flex;
+	align-items: center;
+	gap: 2vw;
+}
+.links-nav ol{
+	display: flex;
+	max-width: 1420px;
+	padding: 1rem;
+	gap: 2vw;
+	
+}
+.links-nav ol li{
+	display: flex;
+	margin: 2rem;
+	
+}
+.links-nav ol li a{
+	font-family: "Sen", sans-serif;
+	color: var(--off-white);
+	display: inline-block;
+  	position: relative;
+}
+.links-nav ol li a::after{
+	content: '';
+	position: absolute;
+	width: 100%;
+	transform: scaleX(0);
+	height: 2px;
+	bottom: 0;
+	left: 0;
+	background-color: #FFF9ED;
+	transition: transform 0.25s ease-out;
+}
+.links-nav ol li a:hover::after {
+  transform: scaleX(1);
+}
+
+/*SOCIALS*/
+#socials{
+	background-color: var(--ciemny-zielony);
+}
+.socials a:hover{
+	transform: scale(1.2);
+}
+
+.socials-content h4{
+	color: var(--off-white);
+	font-size: 2.4rem;
+	font-weight: bold;
+	text-align: center;
+	padding: 2rem;
+}
+
+.socials-icons{
+	display: flex;
+	justify-content: center;
+	gap: 2rem;
+}
+
+.socials-icons a:hover{
+	transform: scale(1.2);
+}
+
+/*STOPKA*/
+#footer{
+	background-color: var(--najciemniejszy-zielony);
+	min-height: 15vh;
+	font-size: 1.6rem;
+}
+.footer-content{
+	width: 100%;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 2rem;
+	justify-content: center;
+}
+.footer-content-text{
+	display: flex;
+	flex: 0 1 25rem;
+	flex-direction: column;
+	text-align: left;
+	padding: 3rem 0 3rem 0;
+}
+.footer-content-text h3{
+	text-transform: uppercase;
+	font-size: 2.4rem;
+	line-height: 140%;
+}
+.footer-content-text ol li{
+	color: var(--off-white);
+	display: flex;
+	justify-content: space-around;
+	flex-direction: column;
+	padding: 0 0 2rem 0;
+}
+.footer-content-text ol li a{
+	text-decoration: none;
+	color: #B6D25C;
+	font-size: 2rem;
+}
+.footer-content-text input[type=email] {
+	font-size: 1.2rem;
+	padding: 1.5rem 10vw 1.5rem 1.5rem;
+	margin-bottom: 1rem;
+	border: 0;
+	border-radius: 3rem;
+	margin-right:  1rem;
+}
+.button{
+	padding-top: 2rem;
+}
+#zgody{
+	color: var(--off-white);
+	font-size: 1.4rem;
+	margin: 1rem 0rem;
+}
+#zgody a{
+	color: var(--off-white);
+	text-decoration-line: underline;
+	font-family: "Sen", sans-serif;
+}
+
+/*COPYRIGHT*/
+.copyright{
+	background-color: var(--najciemniejszy-zielony);
+	height: 2rem;
+	color: #5D633B;
+	font-size: 1.4rem;
+	text-align: center;
+}
+
+/*!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!*/
+@media(max-width: 800px){
+	nav{
+		display: none;
+	}
+	.burger{
+		display: block;
+	}
+}
